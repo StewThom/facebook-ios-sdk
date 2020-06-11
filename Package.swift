@@ -30,18 +30,22 @@ let package = Package(
     products: [
         .library(
             name: "FacebookCore",
+            type: .dynamic,
             targets: ["FacebookCore"]
         ),
         .library(
             name: "FacebookLogin",
+            type: .dynamic,
             targets: ["FacebookLogin"]
         ),
         .library(
             name: "FacebookShare",
+            type: .dynamic,
             targets: ["FacebookShare"]
         ),
         .library(
             name: "FacebookGamingServices",
+            type: .dynamic,
             targets: ["FacebookGamingServices"]
         )
     ],
